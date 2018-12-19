@@ -66,6 +66,7 @@ PKG_CONFIGURE_FLAGS=(
 	#
 	--enable-sdk=all
 	--enable-secure-api
+	--with-default-win32-winnt=0x600
 	#
 	CFLAGS="\"$COMMON_CFLAGS\""
 	CXXFLAGS="\"$COMMON_CXXFLAGS\""
